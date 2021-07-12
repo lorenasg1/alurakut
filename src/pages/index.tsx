@@ -8,6 +8,7 @@ import {
   AlurakutMenu,
   AlurakutMenuProfileSidebar,
   OrkutNostalgicIconSet,
+  AlurakutProfileSidebarMenuDefault,
 } from '../lib/AlurakutCommons';
 import { ProfileRelationsBoxWrapper } from '../ProfileRelations';
 
@@ -28,6 +29,7 @@ export default function Home() {
       <MainGrid>
         <div className="profileArea" style={{ gridArea: 'profileArea' }}>
           <AlurakutMenuProfileSidebar githubUser={githubUser} />
+          {/* <AlurakutProfileSidebarMenuDefault></AlurakutProfileSidebarMenuDefault> */}
         </div>
         <div className="welcomeArea" style={{ gridArea: 'welcomeArea' }}>
           <Box>
